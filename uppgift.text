@@ -1,0 +1,24 @@
+Uppgift 1 Loopar
+
+a) Skriv ett program som med hjälp av en while-loop skriver ut talen 0 till och med 5.
+b) Gör så att programmet skriver ut från 2 till 5, genom att ändra på startvärdet på varvs-
+variabeln
+c) Skapa en for-loop som skriver ut talen 0 till och med 5.
+d) Skapa en do-sats som skriver ut talen 2 till och med 5.
+
+e) Skapa en while-loop som skriver ut talen 5 till och med 0, använd variabel— för att minska
+på varvsvariabeln.
+f) Skapa en for-loop som skriver ut talen 5 till och 0, använd variabel— för att minska på
+varvsvariabeln.
+g) Skriv kod där Användaren matar in 5 tal i ett fält, dettta ska ske i en for-loop. Skriv ut talen
+med en for-loop.
+h) Ändra på koden i for loopen så att fältet skrivs ut i omvänd ordning så att varvsvariabeln får
+startvärdet på sista elementet och minskar i värde efter varje var med --.
+i) Skriv ett program som ritar nedanstående &#39;figur. Antalet * som skrivs ut bestäms av
+användaren.
+******
+j) Utöka programmet så att nedanstående figur ritas. Låt användaren bestämma antalet rader
+och kolumner som ska skrivas ut på skärmen.
+******
+******
+******
