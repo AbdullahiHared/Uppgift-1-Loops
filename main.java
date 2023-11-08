@@ -38,6 +38,16 @@ public class main {
         System.out.println(tal3);
       } while (tal3 < 5);
 
+      sc.nextLine();
+
+      // e 
+
+      int tal4 = 6;
+
+      while ( tal4 > 0) {
+        tal4--;
+        System.out.println(tal4);
+      }
 
 
     }
