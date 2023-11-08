@@ -21,6 +21,14 @@ public class main {
         System.out.println(i);
       }
 
+      sc.nextLine();
+
+      // c
+
+      for (int i = 0; i <= 5; i++) {
+        System.out.println(i);
+      }
+
      
 
 
