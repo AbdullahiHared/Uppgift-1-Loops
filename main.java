@@ -29,7 +29,14 @@ public class main {
         System.out.println(i);
       }
 
-     
+      sc.nextLine();
+
+      // d
+      int tal3 = 1;
+      do {
+        tal3++;
+        System.out.println(tal3);
+      } while (tal3 < 5);
 
 
 
