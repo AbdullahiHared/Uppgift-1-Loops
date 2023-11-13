@@ -48,7 +48,28 @@ public class main {
         tal4--;
         System.out.println(tal4);
       }
+      sc.nextLine();
+
+     
+      for (int i = 0; i <= 5; i++) {
+        System.out.println(i);
+        
+      }
+      sc.nextLine();
 
 
+      int userNumber[] = new int[5];
+      for (int i = 0; i < 5; i++) {
+        userNumber[i] = sc.nextInt();
+        System.out.println(userNumber[i]);
+
+      }
+
+      sc.nextLine();
+
+
+
+      // h) Ändra på koden i for loopen så att fältet skrivs ut i omvänd ordning
+      // så att varvsvariabeln fårstartvärdet på sista elementet och minskar i värde efter varje var med --.
     }
 }
