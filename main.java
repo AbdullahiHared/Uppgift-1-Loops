@@ -59,16 +59,33 @@ public class main {
 
       System.out.println("Array");
       int userNumber[] = new int[6];
-      // h) Ändra på koden i for loopen så att fältet skrivs ut i omvänd ordning
-      // så att varvsvariabeln fårstartvärdet på sista elementet och minskar i värde efter varje var med --.
-  
+
 
       System.out.println("reverse Array");
-
-      for (int i = userNumber.length -1 ; i >= 0; i--) {  
+      for (int i = userNumber.length -1; i > 0; i--) {  
+          userNumber[i] = sc.nextInt();
           System.out.print(userNumber[i] + " ");  
-      }  
+      } 
+      
+      
 
+      // Stars game
 
+      String stars = "*";
+
+      System.out.println("How many rows?");
+      int starRows = sc.nextInt();
+
+      System.out.println("How many columns?");
+      int starColumns = sc.nextInt();
+
+      for (int i = 1; i <= starRows; i++) {
+        for (int j = 1; j <= starColumns; j++) {
+            System.out.print("*");
+        }
+        System.out.println();
     }
+    
+    }
+
 }
