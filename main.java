@@ -57,19 +57,18 @@ public class main {
       }
       sc.nextLine();
 
-
-      int userNumber[] = new int[5];
-      for (int i = 0; i < 5; i++) {
-        userNumber[i] = sc.nextInt();
-        System.out.println(userNumber[i]);
-
-      }
-
-      sc.nextLine();
-
-
-
+      System.out.println("Array");
+      int userNumber[] = new int[6];
       // h) Ändra på koden i for loopen så att fältet skrivs ut i omvänd ordning
       // så att varvsvariabeln fårstartvärdet på sista elementet och minskar i värde efter varje var med --.
+  
+
+      System.out.println("reverse Array");
+
+      for (int i = userNumber.length -1 ; i >= 0; i--) {  
+          System.out.print(userNumber[i] + " ");  
+      }  
+
+
     }
 }
