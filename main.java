@@ -1,3 +1,4 @@
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class main {
@@ -66,6 +67,8 @@ public class main {
           userNumber[i] = sc.nextInt();
           System.out.print(userNumber[i] + " ");  
       } 
+
+      System.out.println(Arrays.toString(userNumber));
       
       
 
